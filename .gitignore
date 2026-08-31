@@ -1,0 +1,23 @@
+# Full-size data (not committed - see README for how to get it)
+data/CLTV_TRAINDATA.xlsx
+data/CLTV_TESTDATA.csv
+data/*.csv
+data/*.xlsx
+!data/sample/*.csv
+
+# Local run outputs (results/ has the *committed, verified* copies checked
+# in on purpose - these rules only ignore re-runs you do locally)
+/submission.csv
+/submission_*.csv
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
